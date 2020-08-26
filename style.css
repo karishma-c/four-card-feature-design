@@ -168,18 +168,23 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .card-1, .card-3{
+    .card-1{
         position: static;
-        width: 95%;
-        margin: .5em;
+        width: 80%;
+        margin: 1em 1em .5em .5em;
+    }
+    .card-3{
+        position: static;
+        width: 80%;
+        margin: .5em 1em .5em .5em;
     }
     .card-2, .card-4{
-        width: 95%;
-        margin: .5em;
+        width: 80%;
+        margin: .5em 1em .5em .5em;
     }
    .card-desc{
         padding: 0 0 1em 1.4em;
-        margin: 0 .5em 0 0;
+        margin: 0 10em 0 0;
     }
     img{
         width: 15%;
