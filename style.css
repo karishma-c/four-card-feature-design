@@ -6,9 +6,9 @@ body{
     background: hsl(0, 0%, 98%);
 }
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     width: 99%;
-    margin: 0 1em;
+    margin: 0;
 }
 .heading{
     font-family: var(--font-family);
@@ -16,7 +16,7 @@ body{
     font-size: 1.1rem;
     font-weight: 400;
     padding-top: 1em;
-    margin: 0 6em 0 0;
+    margin: 0 0 0 12em;
     color: rgb(133, 131, 131);
 }
 span{
@@ -32,7 +32,7 @@ span{
     text-align: center;
     font-size: .8rem;
     font-weight: 400;
-    margin: 1em 0 0 31em;
+    margin: 1em 1em 1em 36em;
     color: rgb(133, 131, 131);
 }
 .card-container{
@@ -42,7 +42,7 @@ span{
     flex-wrap: row wrap;
     justify-content: center;
     align-items: center;
-    margin: 1em 0 0 15em;
+    margin: 1em 0 1em 19em;
 }
 
 .card-1{
@@ -107,17 +107,17 @@ img{
 }
 footer{
     font-family: var(--font-family);
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 13em 5em 0 0;
+    margin: 15em 0 0 1em;
 }
 .attribution h6{
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 0;
     padding: .2em;
 }
@@ -127,55 +127,35 @@ footer{
 }
 @media (max-width:1100px){
     .heading{
-        margin: 0 0 0 6em;
+        margin: 0 auto;
     }
     .description{
-        margin: 1em 24em 0 24em;
+        margin: 1em auto;
     }
     .card-container{
         max-width: 1000px;
         width:98%;
-        margin: 1em 0 1em 12em;
+        margin: 1em 0 1em 8em;
     }
     .card-1{
         position: relative;
         top: 6em;
         width: 45%;
-        margin: .5em;
-        border-radius: 6px;
-        background: white;
-        border-top: 4px solid hsl(180, 62%, 55%);
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     }
     .card-2{
         width: 45%;
-        margin: .5em;
-        border-radius: 6px;
-        background: white;
-        border-top: 4px solid hsl(0, 78%, 62%);
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     }
     .card-3{
         position: relative;
         top: 12em;
         right: 15em;
         width: 45%;
-        margin: .5em;
-        border-radius: 6px;
-        background: white;
-        border-top: 4px solid hsl(34, 97%, 64%);
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     }
     .card-4{
         position: relative;
         top: 6em;
         right: 15em;
         width: 45%;
-        margin: .5em;
-        border-radius: 6px;
-        background: white;
-        border-top: 4px solid hsl(212, 86%, 64%);
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     }
     .card-desc{
         padding: 0 0 1em 1.4em;
@@ -183,23 +163,23 @@ footer{
     }
     .attribution h6{
         text-align: center;
-        font-size: 1rem;
-        margin: 0 0 0 15em;
+        font-size: .9rem;
+        margin: 0 auto;
         padding: .2em;
     }
 }
 @media (max-width:900px){
     .heading{
-        margin: 0 0 0 1em;
+        margin: 0 auto;
     }
     .description{
         font-size: .85rem;
         font-weight: 400;
-        margin: 1em 10em 0 10em;
+        margin: 1em auto;
     }
     .card-container{
         width: 90%;
-        margin: 2em 0 2em 3em;
+        margin: 2em auto;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -213,18 +193,12 @@ footer{
         width: 50%;
     }
     footer{
-        margin: 0 0 0 3em;
+        margin: 0 -2em 0 0;
     }
 }
 @media (max-width: 650px){
-    .heading{
-        margin: 0 auto;
-    }
     .description{
         width: 250px;
-        font-size: .85rem;
-        font-weight: 400;
-        margin: 1em auto;
     }
     .card-container{
         margin: 1em auto;
