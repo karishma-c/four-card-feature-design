@@ -170,16 +170,16 @@ footer{
     }
     .card-1{
         position: static;
-        width: 80%;
+        width: 85%;
         margin: 1em 1em .5em .5em;
     }
     .card-3{
         position: static;
-        width: 80%;
+        width: 85%;
         margin: .5em 1em .5em .5em;
     }
     .card-2, .card-4{
-        width: 80%;
+        width: 85%;
         margin: .5em 1em .5em .5em;
     }
    .card-desc{
